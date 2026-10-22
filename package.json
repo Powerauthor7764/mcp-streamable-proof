@@ -1,0 +1,15 @@
+{
+  "name": "mcp-streamable-proof",
+  "version": "1.0.0",
+  "description": "Open-source utility for verifying MCP Streamable HTTP servers and exercising basic tools/list and tools/call flows.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "mcp-streamable-proof": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "node src/cli.js",
+    "check": "npm test"
+  }
+}
